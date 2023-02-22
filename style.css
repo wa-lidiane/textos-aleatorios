@@ -1,9 +1,15 @@
 @charset "UTF-8"
 
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 body{
     background-image: linear-gradient(to right, #DEC8C8, #E2D1E8);
@@ -19,11 +25,13 @@ main{
 }
 
 h1{
+    font-family: 'Fredericka the Great', cursive;
     color: #847d8dd7;
     text-align: center;
 }
 
 h2{
+    font-family: 'Mynerve', cursive;
     font-size: 1em;
     text-align: center;
 }
@@ -33,6 +41,8 @@ table {
 }
 
 p{
+    font-family: 'Bad Script', cursive;
     text-align: justify;
     padding: 10px;
 }
+
