@@ -1,8 +1,7 @@
 @charset "UTF-8"
 
 body{
-    text-align: center;
-    background-color: #D2C8DE;
+    background-image: linear-gradient(to right #D2C8DE, #E2D1E8);
 }
 
 table{
