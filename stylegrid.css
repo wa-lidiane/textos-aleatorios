@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #DEC8C8, #E2D1E8);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #843b8ac5;
+    width: 450px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: #847d8dd7;
+    text-align: center;
+}
+
+p{
+    font-family: 'Mynerve', cursive;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px ;
+    grid-template-rows: 100px 100px ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    
+}
+
+.item{      
+    background-color: #937a96bb;
+    padding: 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 5px 5px 15px #843b8ac5;
+}
+
+
+/*responsividade*/
+@media(max-width:2560px) and (min-width: 1440px){
+    body{
+        background-color: red;
+        color: white;
+    }
+    .item{
+        width: 100%;
+        height: auto;
+    }
+    .h1{
+        text-align: center;
+        font-size: 26px;
+    }
+    .p{
+        text-align: center;
+    }
+}
+
+@media(max-width: 790px){
+    .item{
+        width: 90%;
+        height: auto;
+    }
+
+    
+}
+
+@media (max-width: 320px){
+    .item{
+        width: 100%;
+        height: auto;
+    }
+    .h1{
+        text-align: center;
+    }
+    .p{
+        font-size: 14px;
+        text-align: center;
+    }    
+}
+
+
+
+
