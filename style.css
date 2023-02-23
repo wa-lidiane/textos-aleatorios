@@ -46,7 +46,12 @@ p{
     padding: 10px;
 }
 
+.autor{
+    font-style: italic;
 
+}
+
+/*responsividade*/
 @media (max-width: 320px){
     .div{
         width: 100%;
