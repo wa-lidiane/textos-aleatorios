@@ -46,3 +46,18 @@ p{
     padding: 10px;
 }
 
+
+@media (max-width: 320px){
+    .div{
+        width: 100%;
+        height: auto;
+    }
+    .h1{
+        text-align: center;
+    }
+    .p{
+        font-size: 14px;
+        text-align: center;
+    }    
+}
+
