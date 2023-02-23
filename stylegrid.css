@@ -57,6 +57,10 @@ p{
     box-shadow: 5px 5px 15px #843b8ac5;
 }
 
+img{
+    border-radius: 3px;
+}
+
 
 /*responsividade*/
 @media(max-width:2560px) and (min-width: 1440px){
