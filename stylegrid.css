@@ -54,11 +54,20 @@ p{
     display:flex;
     align-items:center;
     justify-content:center;
-    box-shadow: 5px 5px 15px #843b8ac5;
+    box-shadow: 5px 5px 20px #843b8ac5;
+    border-radius: 3px;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
 }
 
 img{
-    border-radius: 3px;
+    border-radius: 4px;
+}
+
+.item:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #45054dec;
 }
 
 
